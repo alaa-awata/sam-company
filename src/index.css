@@ -1,0 +1,16 @@
+@import "tailwindcss";
+:root {
+  /* accent color variable used by cards and other components */
+  --sam-accent: #7a1c1c;
+}
+
+/* Tailwind base (keep if already present) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helper so text remains readable on very small screens */
+article p { text-shadow: 0 1px 0 rgba(0,0,0,0.2); }
+
+/* small helper to ensure overlayed background doesn't break contrast on very small screens */
+section > .relative { z-index: 1; }
