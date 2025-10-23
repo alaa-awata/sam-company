@@ -33,8 +33,7 @@ This project showcases Sam Company’s services, team, and contact information w
 
 1. **Clone the repository**
    ```bash
-   git clone https://gitlab.com/alaa-awata1/sam-company.git
-   cd sam-company
+   git clone https://github.com/alaa-awata/sam-company
 
 2. **Install dependencies**
     npm install
