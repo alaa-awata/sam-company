@@ -1,0 +1,16 @@
+# Root level gitignore
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.swp
+*~
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
